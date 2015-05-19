@@ -14,4 +14,4 @@ Implement a recursive version of the factorial function called `factorial_recurs
 [Recursion](http://en.wikipedia.org/wiki/Recursion_%28computer_science%29) in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration).
 
 ##Tests
-Any solution that you create should make the p tests pass (equal true) when you run the script.
+Any solution that you create should make the p tests pass (evaluate to true) when you run the script.
