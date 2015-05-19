@@ -1,20 +1,20 @@
 # The Fibonacci Sequence
 
-We're going to have you implement two versions of the [Fibonacci sequence](http://en.wikipedia.org/wiki/Fibonacci_number): an iterative version and a recursive version. We'll compare the performance of each and discuss potential improvements. They'll be methods called `fib_iterative` and `fib_recursive`, respectively, which take an integer `n` as input and returns the `n`th Fibonacci number.
+We're going to have you implement two versions of the [Fibonacci sequence](http://en.wikipedia.org/wiki/Fibonacci_number): an iterative version and a recursive version. We'll compare the performance of each and discuss potential improvements. They'll be methods called `fibonacci_iterative` and `fibonacci_recursive`, respectively, which take an integer `n` as input and returns the `n`th Fibonacci number.
 
 Each version will work as follows:
 
 ```ruby
-def fib_iterative(n)
+def fibonacci_iterative(n)
   # returns the nth Fibonacci number
 end
 
-fib_iterative(0) #=> 0
-fib_iterative(1) #=> 1
-fib_iterative(2) #=> 1
-fib_iterative(3) #=> 2
-fib_iterative(4) #=> 3
-fib_iterative(5) #=> 5
+fibonacci_iterative(0) #=> 0
+fibonacci_iterative(1) #=> 1
+fibonacci_iterative(2) #=> 1
+fibonacci_iterative(3) #=> 2
+fibonacci_iterative(4) #=> 3
+fibonacci_iterative(5) #=> 5
 # etc…
 ```
 
