@@ -1,4 +1,5 @@
 #Note: you may choose to use the prime module here.  It is possible to solve either way.
+require 'prime'
 
 def prime_factors(number)
 	answer = []
