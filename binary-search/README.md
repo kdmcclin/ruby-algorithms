@@ -1,4 +1,4 @@
-# Algorithm Drill Binary Search
+# Binary Search
 
 Children who are learning arithmetic sometimes play a number-guessing game:
 
