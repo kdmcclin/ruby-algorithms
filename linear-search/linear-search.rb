@@ -8,7 +8,7 @@ end
 
 #Tests
 p linear_search(3, [1,2,3])
-p linear_search(4, [1,2,3])
+p linear_search(4, [1,2,3]) 
 p linear_search(13, [1,2,3])
 
 bananas_arr = "bananas".split("")
