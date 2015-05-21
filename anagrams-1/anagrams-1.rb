@@ -1,5 +1,5 @@
 def is_anagram?(word1, word2)
-  canonical(word1) == canonical(word2)
+	canonical(word1) == canonical(word2)
 end
 
 #write an is_anagram? method first, then refactor into this method
