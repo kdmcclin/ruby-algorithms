@@ -1,10 +1,10 @@
 def binary_search (search_item, sorted_array)
-	max = sorted_array.length
+	max = sorted_array.length - 1
 	min = 0
 	median = (max - min) / 2
 
 	return min if sorted_array[min] == search_item
-	return max - 1 if sorted_array[max - 1] == search_item
+	return max if sorted_array[max] == search_item
 	
 	while max > min
 		if sorted_array[median] == search_item
