@@ -39,4 +39,4 @@ global_linear_search("a", bananas_arr)
 
 ##Tests
 
-There are tests already file, but you should add more to prove that your code works correctly. Are there any edge cases you need to consider? Did you hit any bugs that should have had tests?
+There are tests already on file, but you should add more to prove that your code works correctly. Are there any edge cases you need to consider? Did you hit any bugs that should have had tests?
