@@ -8,14 +8,12 @@
 
 
 def beeramid(bonus, price_per_can)
+	return 0 if bonus < price_per_can
 	cans = num_cans(bonus, price_per_can)
 	square_root = Math.sqrt(cans).floor
 	(1..square_root).each do |n|
-		if total_cans(n) == cans
-			return n
-		elsif total_cans(n) > cans
-			return n - 1 
-		end
+		return n if total_cans(n) == cans
+		return n - 1 if total_cans(n) > cans
 	end
 end
 
